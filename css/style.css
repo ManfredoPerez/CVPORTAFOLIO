@@ -635,6 +635,62 @@ h3.my-profession{
     margin-bottom: 30px;
 }
 
+.portfolio-item-inner {
+    /* background: #2d343f; */
+    border-radius: 28px;
+    border: 1px solid transparent;
+    box-shadow:0 0 2px cornflowerblue;
+    padding: 10px;
+    transition: all .50 ease;
+}
+
+.portfolio-item-inner:hover{
+    transform: scale(1.4);
+} 
+
+.main-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-row a{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 55px; */
+    height: 20px;
+    font-size: 15px;
+    /* border-radius: 50%; */
+    color: white;
+}
+
+.main-row h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+.portfolio-item i{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    font-size: 27px;
+    border-radius: 50%;
+    color: white;
+    background: #075fe4;
+}
+
+.portfolio-item h4 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+
 .portfolio .portfolio-item-inner{
     border: 6px solid var(--bg-black-100);
     border-radius: 10px;
